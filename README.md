@@ -29,7 +29,7 @@ Please make sure to update tests as appropriate.
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Credits
-- Decky (Thank you for the images)
+- Decky (Thank you for the art)
 
 ## Buy Me a Coffee
 <a href="https://www.buymeacoffee.com/zjairo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
