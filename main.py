@@ -8,10 +8,10 @@ root.resizable(0, 0)
 root.title("Pwd Gen")
 
 # Logo
-logo = PhotoImage(file = "logo.png")
+logo = PhotoImage(file = "res/logo.png")
 
 # Icon
-icon = PhotoImage(file = "lock.png")
+icon = PhotoImage(file = "res/lock.png")
 root.iconphoto(False, icon)
 
 # Label
