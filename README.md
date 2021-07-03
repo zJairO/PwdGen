@@ -31,4 +31,5 @@ Please make sure to update tests as appropriate.
 ## Credits
 - Decky (Thank you for the images)
 
+## Buy Me a Coffee
 <a href="https://www.buymeacoffee.com/zjairo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
