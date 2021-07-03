@@ -49,7 +49,7 @@ def copyPassword():
     pyperclip.copy(pass_str.get())
 
 # Botones & Entry
-ttk.Entry(root, textvariable = pass_str, width = 25, justify = CENTER).pack(pady = 5)
+ttk.Entry(root, textvariable = pass_str, width = 27, justify = CENTER).pack(pady = 5)
 ttk.Button(root, text = "GENERATE PASSWORD", command = generator, width = 25, style='success.TButton').pack(pady = 5)
 ttk.Button(root, text = 'COPY TO CLIPBOARD', command = copyPassword, width = 25, style='secondary.TButton').pack(pady = 5)
 
