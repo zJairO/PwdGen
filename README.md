@@ -26,3 +26,6 @@ Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Credits
+@Decky (Thank you for the images)
