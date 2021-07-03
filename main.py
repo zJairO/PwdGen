@@ -1,9 +1,15 @@
 from tkinter import *
 import random, string
 import pyperclip
+from tkinter import ttk
+from ttkbootstrap import Style
 
-root = Tk()
-root.geometry("400x220")
+# Style
+style = Style(theme = 'cyborg')
+root = style.master
+
+#root = Tk()
+root.geometry("400x230")
 root.resizable(0, 0)
 root.title("Pwd Gen")
 
@@ -43,9 +49,9 @@ def copyPassword():
     pyperclip.copy(pass_str.get())
 
 # Botones & Entry
-Entry(root, textvariable = pass_str, width = 23, justify = CENTER).pack(pady = 5)
-Button(root, text = "GENERATE PASSWORD", command = generator, width = 20).pack(pady = 5)
-Button(root, text = 'COPY TO CLIPBOARD', command = copyPassword, width = 20).pack(pady = 5)
+ttk.Entry(root, textvariable = pass_str, width = 25, justify = CENTER).pack(pady = 5)
+ttk.Button(root, text = "GENERATE PASSWORD", command = generator, width = 25, style='success.TButton').pack(pady = 5)
+ttk.Button(root, text = 'COPY TO CLIPBOARD', command = copyPassword, width = 25, style='secondary.TButton').pack(pady = 5)
 
 # Run
 root.mainloop()
