@@ -15,9 +15,10 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+After that generate your password and copy it to your clipboard.
 
 ## Screenshots
-![](https://imgur.com/olVQw3C.png)
+![](https://imgur.com/TYv9rJT.png)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
