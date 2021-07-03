@@ -1,19 +1,21 @@
 from tkinter import *
 import random, string
-from typing import Sized
 import pyperclip
 
 root = Tk()
-root.geometry("400x170")
+root.geometry("400x220")
 root.resizable(0, 0)
-root.title("SECURE PASSWORD GENERATOR")
+root.title("Pwd Gen")
+
+# Logo
+logo = PhotoImage(file = "logo.png")
 
 # Icon
 icon = PhotoImage(file = "lock.png")
 root.iconphoto(False, icon)
 
 # Label
-Label(root, text = 'SECURE PASSWORD GENERATOR', font = "arial 15 bold").pack(pady = 5)
+Label(root, image = logo).pack(pady = 5)
 
 pass_str = StringVar()
 
