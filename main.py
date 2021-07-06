@@ -6,9 +6,9 @@ import random, string, pyperclip, shutil, datetime, os
 class App:
     def __init__(self):
         # Init
-        self.style = Style(theme = "cyborg")
+        self.style = Style(theme = "cosmo")
         self.root = self.style.master
-        self.root.geometry("400x230")
+        self.root.geometry("400x250")
         self.root.resizable(0, 0)
         self.root.title("Pwd Gen")
         self.icon = PhotoImage(file = "res/lock.png")
