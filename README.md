@@ -1,6 +1,6 @@
 ![](https://i.imgur.com/8amiLRb.png)
 
-PwdGen is a Python Tkinter tool for generating secure 16 digit passwords.
+PwdGen ( Password Generator ) is a Python Tkinter tool for generating secure 16 digit passwords.
 
 ## Installation
 
