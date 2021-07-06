@@ -18,7 +18,7 @@ python main.py
 After that generate your password and copy it to your clipboard.
 
 ## Screenshots
-![](https://i.imgur.com/nn5bBtf.png)
+![](https://i.imgur.com/nmHLyBL.png)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
