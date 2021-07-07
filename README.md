@@ -1,7 +1,9 @@
-![](https://i.imgur.com/jW6UwBZ.png)
-
+<p align="center" width="100%">
+    <img src="https://i.imgur.com/jW6UwBZ.png"> 
+</p>
+<p align="center" width="100%">
 PwdGen ( Password Generator ) is a Python Tkinter tool for generating secure 16 digit passwords.
-
+</p>
 ## Installation
 
 Simply install requirements
